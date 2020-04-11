@@ -6,11 +6,20 @@ Send frame data to [virtual camera](https://github.com/seanchas116/CoreMediaIO-D
 
 ### Virtual camera
 
-* Clone https://github.com/seanchas116/CoreMediaIO-DAL-Example/tree/vcam-socket
-* Open `/BuildSystem/XcodeProjects/Sample.xcodeproj`
-* Build target "SampleVCam Plugin"
-* `sudo cp BuildResults/Debug/root/Library/CoreMediaIO/Plug-Ins/DAL/SampleVCam.plugin /Library/CoreMediaIO/Plug-Ins/DAL`
-* `./BuildResults/Debug/root/Library/CoreMediaIO/Plug-Ins/DAL/SampleVCam.plugin/Contents/Resources/SampleVCamAssistant`
+```
+git clone git@github.com:seanchas116/CoreMediaIO-DAL-Example.git
+cd CoreMediaIO-DAL-Example
+git switch vcam-socket
+open /BuildSystem/XcodeProjects/Sample.xcodeproj
+```
+
+In Xcode, Build target "SampleVCam Plugin".
+Then,
+
+```
+sudo cp BuildResults/Debug/root/Library/CoreMediaIO/Plug-Ins/DAL/SampleVCam.plugin /Library/CoreMediaIO/Plug-Ins/DAL
+./BuildResults/Debug/root/Library/CoreMediaIO/Plug-Ins/DAL/SampleVCam.plugin/Contents/Resources/SampleVCamAssistant
+```
 
 ### Client
 
