@@ -25,7 +25,7 @@ int main(void) {
     // struct sockaddr_un 作成
     struct sockaddr_un sa = {0};
     sa.sun_family = AF_UNIX;
-    strcpy(sa.sun_path, "/tmp/unix-domain-socket");
+    strcpy(sa.sun_path, "/tmp/vcam-socket");
 
     try {
         // 接続
