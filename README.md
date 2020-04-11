@@ -9,8 +9,8 @@ Send frame data to [virtual camera](https://github.com/seanchas116/CoreMediaIO-D
 * Clone https://github.com/seanchas116/CoreMediaIO-DAL-Example/tree/vcam-socket
 * Open `/BuildSystem/XcodeProjects/Sample.xcodeproj`
 * Build target "SampleVCam Plugin"
-* Copy `SampleVCam.plugin` to `/Library/CoreMediaIO/Plug-Ins/DAL`
-* Run `SampleVCamAssistant` (this is the server)
+* `sudo cp BuildResults/Debug/root/Library/CoreMediaIO/Plug-Ins/DAL/SampleVCam.plugin /Library/CoreMediaIO/Plug-Ins/DAL`
+* `./BuildResults/Debug/root/Library/CoreMediaIO/Plug-Ins/DAL/SampleVCam.plugin/Contents/Resources/SampleVCamAssistant`
 
 ### Client
 
