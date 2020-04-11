@@ -17,9 +17,14 @@ In Xcode, Build target "SampleVCam Plugin".
 Then,
 
 ```
+# Install virtual camera plugin
 sudo cp -R BuildResults/Debug/root/Library/CoreMediaIO/Plug-Ins/DAL/SampleVCam.plugin /Library/CoreMediaIO/Plug-Ins/DAL
+
+# Run server
 ./BuildResults/Debug/root/Library/CoreMediaIO/Plug-Ins/DAL/SampleVCam.plugin/Contents/Resources/SampleVCamAssistant
 ```
+
+Now you can see "SampleVCam" virtual camera in your favorite webcam-using app.
 
 ### Client
 
