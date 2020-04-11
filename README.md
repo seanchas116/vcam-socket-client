@@ -17,7 +17,7 @@ In Xcode, Build target "SampleVCam Plugin".
 Then,
 
 ```
-sudo cp BuildResults/Debug/root/Library/CoreMediaIO/Plug-Ins/DAL/SampleVCam.plugin /Library/CoreMediaIO/Plug-Ins/DAL
+sudo cp -R BuildResults/Debug/root/Library/CoreMediaIO/Plug-Ins/DAL/SampleVCam.plugin /Library/CoreMediaIO/Plug-Ins/DAL
 ./BuildResults/Debug/root/Library/CoreMediaIO/Plug-Ins/DAL/SampleVCam.plugin/Contents/Resources/SampleVCamAssistant
 ```
 
