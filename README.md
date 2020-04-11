@@ -10,7 +10,7 @@ Send frame data to [virtual camera](https://github.com/seanchas116/CoreMediaIO-D
 git clone git@github.com:seanchas116/CoreMediaIO-DAL-Example.git
 cd CoreMediaIO-DAL-Example
 git switch vcam-socket
-open /BuildSystem/XcodeProjects/Sample.xcodeproj
+open BuildSystem/XcodeProjects/Sample.xcodeproj
 ```
 
 In Xcode, Build target "SampleVCam Plugin".
