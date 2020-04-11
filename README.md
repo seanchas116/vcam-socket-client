@@ -24,7 +24,7 @@ sudo cp -R BuildResults/Debug/root/Library/CoreMediaIO/Plug-Ins/DAL/SampleVCam.p
 ./BuildResults/Debug/root/Library/CoreMediaIO/Plug-Ins/DAL/SampleVCam.plugin/Contents/Resources/SampleVCamAssistant
 ```
 
-Now you can see "SampleVCam" virtual camera in your favorite webcam-using app.
+Now you can see "SampleVCam" virtual camera in your favorite webcam-using app. (you'll need restarting app)
 
 ### Client
 
