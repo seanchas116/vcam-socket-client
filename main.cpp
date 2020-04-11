@@ -6,10 +6,8 @@
 #include <iostream>
 #include <chrono>
 
-#define MESSAGE "Hello World!"
-
 int main(void) {
-    auto sequenceFile = fopen("/Library/CoreMediaIO/Plug-Ins/DAL/SampleVCam.plugin/Contents/Resources/ntsc2vuy720x480.yuv", "rb");
+    auto sequenceFile = fopen("../ntsc2vuy720x480.yuv", "rb");
     int frameSize = 720 * 480 * 2;
 
     fseek(sequenceFile, 0, SEEK_END);
